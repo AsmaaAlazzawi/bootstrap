@@ -43,57 +43,23 @@
   /* end navbar */ 
 
 
-
+  
 
 
 
 
  /* header */
 
-
-.display-4 {
-    font-size: 3rem;
-    font-weight: 300;
-    line-height: 0.5;
-    padding-top: 50px;
-    color: #fff;
-}
-
-
-.h1, h1 {
-    font-size: 2.5rem;
-    position: relative;
-    color: #ffff;
-    z-index: 3;
-    
+.home{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
  
 
+   
 
-.layer{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.6);
-        
-
-} 
-     
-
-.jumbotron{
-    background-image: url(../img/header3.JPG) ;
-    position: relative;
-      
-    background-repeat: no-repeat;
-     background-size: cover;  
-    height: 522px;
     
-    margin-bottom: 0px;
-  
 
-}
 /* end header */
 
 
@@ -106,9 +72,9 @@
 /* start section veiw */
 #myveiw{
 
-padding-top:  30px;
+padding-top:  110px;
 background-color:#ecf0f1 ;
-padding-bottom: 30px;
+padding-bottom: 50px;
 
 
 }
@@ -117,7 +83,7 @@ padding-bottom: 30px;
 .myveiw h2{
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .myveiw p{
     line-height: 2;
@@ -128,10 +94,11 @@ padding-bottom: 30px;
     list-style-type: none;
 }
 
-.h3, h3 {
+.mylist.h3,h3{
     margin-bottom: .3rem;
     font-size: 1.6rem;
     color: #000066;
+    text-align: center;
 }
 
 /* end section veiw */
@@ -145,9 +112,9 @@ padding-bottom: 30px;
 
 .myveiw{
 
-    padding-top: 30px;
-    background-color:#f1fbff ;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    background-color:#ecf0f1;
+    padding-bottom: 70px;
     }
 
 
@@ -161,11 +128,13 @@ padding-bottom: 30px;
 
  /* start section trip */
 #mytrip{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
-    
+#mytrip h2{
+    margin-bottom: 80px;
+}    
 
 .myimag{
     
@@ -174,13 +143,12 @@ padding-bottom: 30px;
         margin-left: 60px;
         width:60%;
     }
-
-    .h3, h3 {
+/* .myimag.h3,h3{
         margin-bottom: .3rem;
         font-size: 1.6rem;
         color: #000066;
         text-align: right;
-    }
+    } */
 
     .myread{
         margin-top: 0;
@@ -202,10 +170,13 @@ padding-bottom: 30px;
 
 /* start section map */
 #mymap{
-    padding-top:  30px;
+    padding-top:  50px;
     background-color: #ecf0f1;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
+}
     
+#mymap h2{
+    margin-bottom: 70px;
 
 }
 .myline{
@@ -250,15 +221,19 @@ padding-bottom: 30px;
 /* start mysection connect us */
 
 #contact{
+    
     padding-bottom: 0px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 
 }
 .myrow{
+    background-color: #000066;
     padding-left: 0;
     padding-right: 0;
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 0;
+    
     
 }
 
@@ -270,6 +245,8 @@ padding-bottom: 30px;
      padding-right: 0;
      margin-left: 0;
      margin-right: 0;
+     margin-bottom: 0;
+     padding-bottom: 0;
      
  }
 
@@ -280,6 +257,8 @@ padding-bottom: 30px;
      
      margin-right: 0;
      margin-left: 0;
+     padding-bottom: 0;
+     margin-bottom: 0;
     
     background-color: #000066; 
     
@@ -287,38 +266,52 @@ padding-bottom: 30px;
 
 
 .mytitle {
-    
+    padding-top: 20px;
     color: #fff;
     text-align: center;
 }
 
 
 .mystory{
-    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    line-height:1.5;
     font-size: 18px;
+    text-align: center;
     
    
-    margin-right: 0;
+    
 }
 
 
 
 .myteam{
+    background-color: #ecf0f1;
    
     text-align: center;
-    color: #000066;
     
     font-weight: bold;
+    font-size: 1.4rem;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 110px;
     margin: 0;
 
 }
-
+.myteam .h5, h5 { 
+    
+        font-size: 1.4rem;
+        font-weight: 1000;
+    
+}
 .row-team{
-    padding: 0;
+    background-color:#ecf0f1;
+    padding-top: 50px;
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 0;
     margin: 0;
 }
 
@@ -337,8 +330,8 @@ padding-bottom: 30px;
 
 .footer{
     
-    background-color: #eff3f7;
-    padding-top:10px;
+    background-color: #e1e4e6;
+    padding-top:50px;
     padding-bottom: 10px;
     padding-left: 0;
     padding-right: 0;
